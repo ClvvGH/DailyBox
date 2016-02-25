@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4419B24D1C7E9BE2007ACB34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4419B24C1C7E9BE2007ACB34 /* AppDelegate.swift */; };
+		4419B24F1C7E9BE2007ACB34 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4419B24E1C7E9BE2007ACB34 /* FirstViewController.swift */; };
+		4419B2511C7E9BE2007ACB34 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4419B2501C7E9BE2007ACB34 /* SecondViewController.swift */; };
+		4419B2541C7E9BE2007ACB34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4419B2521C7E9BE2007ACB34 /* Main.storyboard */; };
+		4419B2561C7E9BE2007ACB34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4419B2551C7E9BE2007ACB34 /* Assets.xcassets */; };
+		4419B2591C7E9BE2007ACB34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4419B2571C7E9BE2007ACB34 /* LaunchScreen.storyboard */; };
+		4419B2641C7E9BE2007ACB34 /* DailyBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4419B2631C7E9BE2007ACB34 /* DailyBoxTests.swift */; };
+		4419B26F1C7E9BE2007ACB34 /* DailyBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4419B26E1C7E9BE2007ACB34 /* DailyBoxUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4419B2601C7E9BE2007ACB34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4419B2411C7E9BE2007ACB34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4419B2481C7E9BE2007ACB34;
+			remoteInfo = DailyBox;
+		};
+		4419B26B1C7E9BE2007ACB34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4419B2411C7E9BE2007ACB34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4419B2481C7E9BE2007ACB34;
+			remoteInfo = DailyBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4419B2491C7E9BE2007ACB34 /* DailyBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4419B24C1C7E9BE2007ACB34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4419B24E1C7E9BE2007ACB34 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		4419B2501C7E9BE2007ACB34 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		4419B2531C7E9BE2007ACB34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4419B2551C7E9BE2007ACB34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4419B2581C7E9BE2007ACB34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4419B25A1C7E9BE2007ACB34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4419B25F1C7E9BE2007ACB34 /* DailyBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4419B2631C7E9BE2007ACB34 /* DailyBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyBoxTests.swift; sourceTree = "<group>"; };
+		4419B2651C7E9BE2007ACB34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4419B26A1C7E9BE2007ACB34 /* DailyBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4419B26E1C7E9BE2007ACB34 /* DailyBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyBoxUITests.swift; sourceTree = "<group>"; };
+		4419B2701C7E9BE2007ACB34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4419B2461C7E9BE2007ACB34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4419B25C1C7E9BE2007ACB34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4419B2671C7E9BE2007ACB34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4419B2401C7E9BE2007ACB34 = {
+			isa = PBXGroup;
+			children = (
+				4419B24B1C7E9BE2007ACB34 /* DailyBox */,
+				4419B2621C7E9BE2007ACB34 /* DailyBoxTests */,
+				4419B26D1C7E9BE2007ACB34 /* DailyBoxUITests */,
+				4419B24A1C7E9BE2007ACB34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4419B24A1C7E9BE2007ACB34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4419B2491C7E9BE2007ACB34 /* DailyBox.app */,
+				4419B25F1C7E9BE2007ACB34 /* DailyBoxTests.xctest */,
+				4419B26A1C7E9BE2007ACB34 /* DailyBoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4419B24B1C7E9BE2007ACB34 /* DailyBox */ = {
+			isa = PBXGroup;
+			children = (
+				4419B24C1C7E9BE2007ACB34 /* AppDelegate.swift */,
+				4419B24E1C7E9BE2007ACB34 /* FirstViewController.swift */,
+				4419B2501C7E9BE2007ACB34 /* SecondViewController.swift */,
+				4419B2521C7E9BE2007ACB34 /* Main.storyboard */,
+				4419B2551C7E9BE2007ACB34 /* Assets.xcassets */,
+				4419B2571C7E9BE2007ACB34 /* LaunchScreen.storyboard */,
+				4419B25A1C7E9BE2007ACB34 /* Info.plist */,
+			);
+			path = DailyBox;
+			sourceTree = "<group>";
+		};
+		4419B2621C7E9BE2007ACB34 /* DailyBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				4419B2631C7E9BE2007ACB34 /* DailyBoxTests.swift */,
+				4419B2651C7E9BE2007ACB34 /* Info.plist */,
+			);
+			path = DailyBoxTests;
+			sourceTree = "<group>";
+		};
+		4419B26D1C7E9BE2007ACB34 /* DailyBoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4419B26E1C7E9BE2007ACB34 /* DailyBoxUITests.swift */,
+				4419B2701C7E9BE2007ACB34 /* Info.plist */,
+			);
+			path = DailyBoxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4419B2481C7E9BE2007ACB34 /* DailyBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4419B2731C7E9BE2007ACB34 /* Build configuration list for PBXNativeTarget "DailyBox" */;
+			buildPhases = (
+				4419B2451C7E9BE2007ACB34 /* Sources */,
+				4419B2461C7E9BE2007ACB34 /* Frameworks */,
+				4419B2471C7E9BE2007ACB34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DailyBox;
+			productName = DailyBox;
+			productReference = 4419B2491C7E9BE2007ACB34 /* DailyBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4419B25E1C7E9BE2007ACB34 /* DailyBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4419B2761C7E9BE2007ACB34 /* Build configuration list for PBXNativeTarget "DailyBoxTests" */;
+			buildPhases = (
+				4419B25B1C7E9BE2007ACB34 /* Sources */,
+				4419B25C1C7E9BE2007ACB34 /* Frameworks */,
+				4419B25D1C7E9BE2007ACB34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4419B2611C7E9BE2007ACB34 /* PBXTargetDependency */,
+			);
+			name = DailyBoxTests;
+			productName = DailyBoxTests;
+			productReference = 4419B25F1C7E9BE2007ACB34 /* DailyBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4419B2691C7E9BE2007ACB34 /* DailyBoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4419B2791C7E9BE2007ACB34 /* Build configuration list for PBXNativeTarget "DailyBoxUITests" */;
+			buildPhases = (
+				4419B2661C7E9BE2007ACB34 /* Sources */,
+				4419B2671C7E9BE2007ACB34 /* Frameworks */,
+				4419B2681C7E9BE2007ACB34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4419B26C1C7E9BE2007ACB34 /* PBXTargetDependency */,
+			);
+			name = DailyBoxUITests;
+			productName = DailyBoxUITests;
+			productReference = 4419B26A1C7E9BE2007ACB34 /* DailyBoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4419B2411C7E9BE2007ACB34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Clvv;
+				TargetAttributes = {
+					4419B2481C7E9BE2007ACB34 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = Y4G2M396DK;
+					};
+					4419B25E1C7E9BE2007ACB34 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = Y4G2M396DK;
+						TestTargetID = 4419B2481C7E9BE2007ACB34;
+					};
+					4419B2691C7E9BE2007ACB34 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = Y4G2M396DK;
+						TestTargetID = 4419B2481C7E9BE2007ACB34;
+					};
+				};
+			};
+			buildConfigurationList = 4419B2441C7E9BE2007ACB34 /* Build configuration list for PBXProject "DailyBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4419B2401C7E9BE2007ACB34;
+			productRefGroup = 4419B24A1C7E9BE2007ACB34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4419B2481C7E9BE2007ACB34 /* DailyBox */,
+				4419B25E1C7E9BE2007ACB34 /* DailyBoxTests */,
+				4419B2691C7E9BE2007ACB34 /* DailyBoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4419B2471C7E9BE2007ACB34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4419B2591C7E9BE2007ACB34 /* LaunchScreen.storyboard in Resources */,
+				4419B2561C7E9BE2007ACB34 /* Assets.xcassets in Resources */,
+				4419B2541C7E9BE2007ACB34 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4419B25D1C7E9BE2007ACB34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4419B2681C7E9BE2007ACB34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4419B2451C7E9BE2007ACB34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4419B2511C7E9BE2007ACB34 /* SecondViewController.swift in Sources */,
+				4419B24D1C7E9BE2007ACB34 /* AppDelegate.swift in Sources */,
+				4419B24F1C7E9BE2007ACB34 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4419B25B1C7E9BE2007ACB34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4419B2641C7E9BE2007ACB34 /* DailyBoxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4419B2661C7E9BE2007ACB34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4419B26F1C7E9BE2007ACB34 /* DailyBoxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4419B2611C7E9BE2007ACB34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4419B2481C7E9BE2007ACB34 /* DailyBox */;
+			targetProxy = 4419B2601C7E9BE2007ACB34 /* PBXContainerItemProxy */;
+		};
+		4419B26C1C7E9BE2007ACB34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4419B2481C7E9BE2007ACB34 /* DailyBox */;
+			targetProxy = 4419B26B1C7E9BE2007ACB34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4419B2521C7E9BE2007ACB34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4419B2531C7E9BE2007ACB34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4419B2571C7E9BE2007ACB34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4419B2581C7E9BE2007ACB34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4419B2711C7E9BE2007ACB34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4419B2721C7E9BE2007ACB34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4419B2741C7E9BE2007ACB34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DailyBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinkofsomethingclever.DailyBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4419B2751C7E9BE2007ACB34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DailyBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinkofsomethingclever.DailyBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4419B2771C7E9BE2007ACB34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DailyBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinkofsomethingclever.DailyBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyBox.app/DailyBox";
+			};
+			name = Debug;
+		};
+		4419B2781C7E9BE2007ACB34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DailyBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinkofsomethingclever.DailyBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyBox.app/DailyBox";
+			};
+			name = Release;
+		};
+		4419B27A1C7E9BE2007ACB34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DailyBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinkofsomethingclever.DailyBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DailyBox;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4419B27B1C7E9BE2007ACB34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DailyBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinkofsomethingclever.DailyBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DailyBox;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4419B2441C7E9BE2007ACB34 /* Build configuration list for PBXProject "DailyBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4419B2711C7E9BE2007ACB34 /* Debug */,
+				4419B2721C7E9BE2007ACB34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4419B2731C7E9BE2007ACB34 /* Build configuration list for PBXNativeTarget "DailyBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4419B2741C7E9BE2007ACB34 /* Debug */,
+				4419B2751C7E9BE2007ACB34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4419B2761C7E9BE2007ACB34 /* Build configuration list for PBXNativeTarget "DailyBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4419B2771C7E9BE2007ACB34 /* Debug */,
+				4419B2781C7E9BE2007ACB34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4419B2791C7E9BE2007ACB34 /* Build configuration list for PBXNativeTarget "DailyBoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4419B27A1C7E9BE2007ACB34 /* Debug */,
+				4419B27B1C7E9BE2007ACB34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4419B2411C7E9BE2007ACB34 /* Project object */;
+}
