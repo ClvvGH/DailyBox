@@ -13,8 +13,11 @@
 		4419B2541C7E9BE2007ACB34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4419B2521C7E9BE2007ACB34 /* Main.storyboard */; };
 		4419B2561C7E9BE2007ACB34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4419B2551C7E9BE2007ACB34 /* Assets.xcassets */; };
 		4419B2591C7E9BE2007ACB34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4419B2571C7E9BE2007ACB34 /* LaunchScreen.storyboard */; };
-		4419B2641C7E9BE2007ACB34 /* DailyBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4419B2631C7E9BE2007ACB34 /* DailyBoxTests.swift */; };
-		4419B26F1C7E9BE2007ACB34 /* DailyBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4419B26E1C7E9BE2007ACB34 /* DailyBoxUITests.swift */; };
+		445F51A51CA188F0001CC370 /* AgendaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445F51A41CA188F0001CC370 /* AgendaTableViewController.swift */; };
+		4469F5AE1CA13F7500961469 /* Agenda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4469F5AD1CA13F7500961469 /* Agenda.swift */; };
+		447DA7191C7FF4D1009C4176 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447DA7181C7FF4D1009C4176 /* Note.swift */; };
+		447DA71B1C8056F0009C4176 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447DA71A1C8056F0009C4176 /* NoteViewController.swift */; };
+		449873201C80828D00D37B66 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4498731F1C80828D00D37B66 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,11 +47,13 @@
 		4419B2581C7E9BE2007ACB34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4419B25A1C7E9BE2007ACB34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4419B25F1C7E9BE2007ACB34 /* DailyBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4419B2631C7E9BE2007ACB34 /* DailyBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyBoxTests.swift; sourceTree = "<group>"; };
-		4419B2651C7E9BE2007ACB34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4419B26A1C7E9BE2007ACB34 /* DailyBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4419B26E1C7E9BE2007ACB34 /* DailyBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyBoxUITests.swift; sourceTree = "<group>"; };
-		4419B2701C7E9BE2007ACB34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		445F51A41CA188F0001CC370 /* AgendaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AgendaTableViewController.swift; path = ../AgendaTableViewController.swift; sourceTree = "<group>"; };
+		4469F5AD1CA13F7500961469 /* Agenda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Agenda.swift; sourceTree = "<group>"; };
+		447DA7181C7FF4D1009C4176 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		447DA71A1C8056F0009C4176 /* NoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		4498731F1C80828D00D37B66 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		449873211C8082F800D37B66 /* DailyBox-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DailyBox-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				449873201C80828D00D37B66 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,8 +86,6 @@
 			isa = PBXGroup;
 			children = (
 				4419B24B1C7E9BE2007ACB34 /* DailyBox */,
-				4419B2621C7E9BE2007ACB34 /* DailyBoxTests */,
-				4419B26D1C7E9BE2007ACB34 /* DailyBoxUITests */,
 				4419B24A1C7E9BE2007ACB34 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,33 +103,69 @@
 		4419B24B1C7E9BE2007ACB34 /* DailyBox */ = {
 			isa = PBXGroup;
 			children = (
-				4419B24C1C7E9BE2007ACB34 /* AppDelegate.swift */,
-				4419B24E1C7E9BE2007ACB34 /* FirstViewController.swift */,
-				4419B2501C7E9BE2007ACB34 /* SecondViewController.swift */,
-				4419B2521C7E9BE2007ACB34 /* Main.storyboard */,
-				4419B2551C7E9BE2007ACB34 /* Assets.xcassets */,
-				4419B2571C7E9BE2007ACB34 /* LaunchScreen.storyboard */,
-				4419B25A1C7E9BE2007ACB34 /* Info.plist */,
+				44F1196B1C9BB40B0040833C /* Global */,
+				44F1196A1C9BB3E60040833C /* DataBase */,
+				44F119691C9BB3D00040833C /* Resources */,
+				44B2195E1C97FBD800E5D0CC /* Controller */,
+				44B2195D1C97FBC500E5D0CC /* View */,
+				44B2195C1C97FBB100E5D0CC /* Model */,
 			);
 			path = DailyBox;
 			sourceTree = "<group>";
 		};
-		4419B2621C7E9BE2007ACB34 /* DailyBoxTests */ = {
+		44B2195C1C97FBB100E5D0CC /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				4419B2631C7E9BE2007ACB34 /* DailyBoxTests.swift */,
-				4419B2651C7E9BE2007ACB34 /* Info.plist */,
+				447DA7181C7FF4D1009C4176 /* Note.swift */,
+				4469F5AD1CA13F7500961469 /* Agenda.swift */,
 			);
-			path = DailyBoxTests;
+			name = Model;
 			sourceTree = "<group>";
 		};
-		4419B26D1C7E9BE2007ACB34 /* DailyBoxUITests */ = {
+		44B2195D1C97FBC500E5D0CC /* View */ = {
 			isa = PBXGroup;
 			children = (
-				4419B26E1C7E9BE2007ACB34 /* DailyBoxUITests.swift */,
-				4419B2701C7E9BE2007ACB34 /* Info.plist */,
+				4419B2521C7E9BE2007ACB34 /* Main.storyboard */,
+				4419B2571C7E9BE2007ACB34 /* LaunchScreen.storyboard */,
 			);
-			path = DailyBoxUITests;
+			name = View;
+			sourceTree = "<group>";
+		};
+		44B2195E1C97FBD800E5D0CC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4419B24E1C7E9BE2007ACB34 /* FirstViewController.swift */,
+				4419B2501C7E9BE2007ACB34 /* SecondViewController.swift */,
+				445F51A41CA188F0001CC370 /* AgendaTableViewController.swift */,
+				447DA71A1C8056F0009C4176 /* NoteViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		44F119691C9BB3D00040833C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4419B2551C7E9BE2007ACB34 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		44F1196A1C9BB3E60040833C /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				449873211C8082F800D37B66 /* DailyBox-Bridging-Header.h */,
+				4498731F1C80828D00D37B66 /* libsqlite3.tbd */,
+			);
+			name = DataBase;
+			sourceTree = "<group>";
+		};
+		44F1196B1C9BB40B0040833C /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				4419B24C1C7E9BE2007ACB34 /* AppDelegate.swift */,
+				4419B25A1C7E9BE2007ACB34 /* Info.plist */,
+			);
+			name = Global;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +302,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				447DA7191C7FF4D1009C4176 /* Note.swift in Sources */,
+				445F51A51CA188F0001CC370 /* AgendaTableViewController.swift in Sources */,
+				4469F5AE1CA13F7500961469 /* Agenda.swift in Sources */,
 				4419B2511C7E9BE2007ACB34 /* SecondViewController.swift in Sources */,
 				4419B24D1C7E9BE2007ACB34 /* AppDelegate.swift in Sources */,
+				447DA71B1C8056F0009C4176 /* NoteViewController.swift in Sources */,
 				4419B24F1C7E9BE2007ACB34 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,7 +316,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4419B2641C7E9BE2007ACB34 /* DailyBoxTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +323,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4419B26F1C7E9BE2007ACB34 /* DailyBoxUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,10 +446,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DailyBox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thinkofsomethingclever.DailyBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DailyBox-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -415,10 +461,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DailyBox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thinkofsomethingclever.DailyBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DailyBox-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -489,6 +538,7 @@
 				4419B2751C7E9BE2007ACB34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4419B2761C7E9BE2007ACB34 /* Build configuration list for PBXNativeTarget "DailyBoxTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +547,7 @@
 				4419B2781C7E9BE2007ACB34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4419B2791C7E9BE2007ACB34 /* Build configuration list for PBXNativeTarget "DailyBoxUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +556,7 @@
 				4419B27B1C7E9BE2007ACB34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
